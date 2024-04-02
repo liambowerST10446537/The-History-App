@@ -27,19 +27,24 @@
         android:id="@+id/txtAge"
         android:layout_width="210dp"
         android:layout_height="64dp"
+        android:layout_marginStart="29dp"
         android:layout_marginEnd="48dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/btnClear"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
+        app:layout_constraintVertical_bias="0.732" />
 
     <Button
         android:id="@+id/btnFact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Fact"
+        android:textColorHighlight="#6C2929"
+        android:textColorLink="#502A2A"
+        app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.183"
@@ -54,11 +59,13 @@
         android:layout_marginStart="119dp"
         android:layout_marginEnd="56dp"
         android:text="Clear"
+        app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toEndOf="@+id/btnFact"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
+        app:layout_constraintVertical_bias="0.564" />
 
     <TextView
         android:id="@+id/txtFact"
